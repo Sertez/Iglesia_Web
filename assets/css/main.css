@@ -1,0 +1,55 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: #F5F1D5; 
+}
+.img-prin{
+	max-width: 80%;
+
+}
+.quitar-float{
+	float: none;
+}
+.espacio-arriba{
+	margin-top: 60px;
+}
+.pacifico{
+	font-family: 'Pacifico', cursive;
+
+}
+.grande{
+	font-size: 2em;
+}
+.rojito{
+	color: #F2845C;
+}
+.no-lista li{
+	list-style-type: none;
+}
+.no-lista{
+	padding:  7px;
+	border-right-width: 100px;
+}
+.rojito-back{
+	background-color: #F2845C;
+}
+.padding.largo{
+	padding: 5px 10px;
+}
+.margen-der{
+	margin-right: 400px;
+}
+.margen-izq{
+	margin-left: 500px;
+}
+.azulosc{
+	color: #1B3440;
+}
+.margen-izq-tal{
+	margin-left: 20px;
+}
+.img-tal{
+	max-width: 20%;
+}
+.margen-tal{
+	margin-top: 40px;
+}
