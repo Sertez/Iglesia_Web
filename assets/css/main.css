@@ -1,6 +1,5 @@
 body{
-	font-family: 'Lato', sans-serif;
-	background-color: #F5F1D5; 
+	background-color: #215C69; 
 }
 .img-prin{
 	max-width: 80%;
@@ -12,8 +11,8 @@ body{
 .espacio-arriba{
 	margin-top: 60px;
 }
-.pacifico{
-	font-family: 'Pacifico', cursive;
+.cardo{
+	font-family: 'Cardo', serif;
 
 }
 .grande{
@@ -29,17 +28,14 @@ body{
 	padding:  7px;
 	border-right-width: 100px;
 }
-.rojito-back{
-	background-color: #F2845C;
+.azulito-back{
+	background-color: #BADEFF;
 }
 .padding.largo{
 	padding: 5px 10px;
 }
-.margen-der{
-	margin-right: 400px;
-}
 .margen-izq{
-	margin-left: 500px;
+	margin-left: 655px;
 }
 .azulosc{
 	color: #1B3440;
@@ -52,4 +48,7 @@ body{
 }
 .margen-tal{
 	margin-top: 40px;
+}
+.color{
+	color: #F5F1D5;
 }

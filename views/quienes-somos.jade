@@ -3,20 +3,14 @@ html(lang="en")
 		meta(charset="utf-8")
 		link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
 		link(rel="stylesheet" href="css/main.css")
-		link(href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet")
-		link(href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Cardo:400i" rel="stylesheet")
 		title Talleres de Oracion y Vida
 	body
-		img(src="imgs/logo.png" class="espacio-arriba margen-izq img-prin")
-		nav(class="rojito-back padding-largo text-center espacio-arriba margen-der pacifico")
+		a(href="/")
+			img(src="imgs/logo.png" class="espacio-arriba margen-izq img-prin")
+		nav(class="azulito-back padding-largo text-center espacio-arriba cardo")
 			ul(class="no-lista row")
-				a(href="quienessomos.jade" class="col-md-3 grande inline-block azulosc") ¿Quiénes Somos?
-				a(class="col-md-3 grande inline-block azulosc" href="que-hacemos.jade" ) ¿Qué Hacemos?
-				a(href="nuestro-fundador.jade" class="col-md-3 grande inline-block azulosc") Nuestro Fundador
-				a(href="noticias" class="col-md-3 grande inline-block azulosc") Noticias	
-		nav(class="rojito-back padding-largo azulosc pacifico")
-			ul(class="no-lista")
-				li
-					img(src="imgs/mejorgrupo.jpeg" class="margen-tal margen-izq-tal img-tal inline-block")
-					small(class="inline-block grande col-md-3") ejemplo
-					small(class="inline-block grande col-md-3") hola
+				a(href="/quienes-somos" class="col-md-3 grande inline-block azulosc") ¿Quiénes Somos?
+				a(href="/que-hacemos" class="col-md-3 grande inline-block azulosc" ) ¿Qué Hacemos?
+				a(href="/nuestro-fundador" class="col-md-3 grande inline-block azulosc") Nuestro Fundador
+				a(href="/sesiones" class="col-md-3 grande inline-block azulosc") Sesiones	
