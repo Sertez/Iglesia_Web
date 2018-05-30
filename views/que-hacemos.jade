@@ -1,22 +1,42 @@
 html(lang="en")
 	head
+		//aqui se inicializa la pagina, los links correspondientes para las fuentes de texto, el llamado del bootstrap y del css
 		meta(charset="utf-8")
 		link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
 		link(rel="stylesheet" href="css/main.css")
 		link(href="https://fonts.googleapis.com/css?family=Cardo:400i" rel="stylesheet")
 		link(href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet")
+		//titulo de la web
 		title Talleres de Oracion y Vida
 	body
+		//link hacia la clase principal
 		a(href="/")
-			img(src="imgs/logo.png" class="espacio-arriba margen-izq img-prin")
-		nav(class="azulito-back padding-largo text-center espacio-arriba cardo")
+			//se llama a la imagen principal y se le agregan sus respectivos atributos y css
+			img(src="imgs/logo.png" class="espacio-arriba margen-izq-prin img-prin")
+		//se añade un apartado de navegacion
+		nav(class="rojito-back padding-largo text-center espacio-arriba cardo")
+			//la navegacion se crea en forma de columna pero se reemplaza por una fila
 			ul(class="no-lista row")
+				//link hacia la clase quienes-somos
 				a(href="/quienes-somos" class="col-md-3 grande inline-block azulosc") ¿Quiénes Somos?
+				//link hacia la clase que-hacemos
 				a(href="/que-hacemos" class="col-md-3 grande inline-block azulosc" ) ¿Qué Hacemos?
+				//link hacia la clase nuestro fundador
 				a(href="/nuestro-fundador" class="col-md-3 grande inline-block azulosc") Nuestro Fundador
-				a(href="/sesiones" class="col-md-3 grande inline-block azulosc") Sesiones
+				//link hacia la clse sesiones
+				a(href="/sesiones" class="col-md-3 grande inline-block azulosc") Sesiones	
+		//se añade una imagen para mejorar presentacion
+		img(src="imgs/panel.png" class="img-grande sin-margen")
+		//se agrega un conjunto de texto que va tener los mismos atributos
 		div(class="margen-izq-tal margen-der-tal espacio-arriba")
-			h2 PROGRAMA EVANGELICO
+			h1(class="negrita") Programa Evangelico
 			h3 Este es un eficaz programa de Nueva Evangelización, un servicio eclesial, cuyos servicios son dirigidos o impartidos por un Guía que tiene una misión. En la que el Guía pone en práctica el espíritu y el contenido del Manual.	
 			h3 La labor principal de todo tallerista es seguir con el mensaje impartido por nuestro fundador el Padre Ignacio Larrañaga, y continuar su legado; contribuyendo así a la expansión de nuestra Asociación pero sobre todo de la palabra de Dios.
 			h3 Buscamos encender la llama del amor de Dios en los corazones de nuestros participantes, que estos sientan la necesidad de buscar de Él, y la disposición para aprender todas y cada una de las enseñanzas que nos deja su palabra. 
+		//apartado de contactanos
+		div(class="rojito-back padding-largo text-center margen-down azulosc no-lista row espacio-arriba")
+			h3(class="text-center") Contactanos:
+			h4(class="col-md-3 inline-block text-center") E-mail: marthy_02@gmail.com
+			h4(class="col-md-3 inline-block text-center") Telefono: 6900692
+			h4(class="col-md-3 inline-block text-center") Celular: 3125424685
+			h4(class="col-md-3 inline-block text-center") Direccion: Daniel Lemaitre Cra. 15 #69b-69

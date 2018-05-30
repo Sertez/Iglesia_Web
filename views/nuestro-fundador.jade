@@ -1,21 +1,54 @@
 html(lang="en")
 	head
+		//aqui se inicializa la pagina, los links correspondientes para las fuentes de texto, el llamado del bootstrap y del css
 		meta(charset="utf-8")
 		link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
 		link(rel="stylesheet" href="css/main.css")
 		link(href="https://fonts.googleapis.com/css?family=Cardo:400i" rel="stylesheet")
 		link(href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet")
+		//titulo de la web
 		title Talleres de Oracion y Vida
 	body
+		//link hacia la clase principal
 		a(href="/")
-			img(src="imgs/logo.png" class="espacio-arriba margen-izq img-prin")
-		nav(class="azulito-back padding-largo text-center espacio-arriba cardo")
+			//se llama a la imagen principal y se le agregan sus respectivos atributos y css
+			img(src="imgs/logo.png" class="espacio-arriba margen-izq-prin img-prin")
+		//se añade un apartado de navegacion
+		nav(class="rojito-back padding-largo text-center espacio-arriba cardo")
+			//la navegacion se crea en forma de columna pero se reemplaza por una fila
 			ul(class="no-lista row")
+				//link hacia la clase quienes-somos
 				a(href="/quienes-somos" class="col-md-3 grande inline-block azulosc") ¿Quiénes Somos?
+				//link hacia la clase que-hacemos
 				a(href="/que-hacemos" class="col-md-3 grande inline-block azulosc" ) ¿Qué Hacemos?
+				//link hacia la clase nuestro fundador
 				a(href="/nuestro-fundador" class="col-md-3 grande inline-block azulosc") Nuestro Fundador
-				a(href="/sesiones" class="col-md-3 grande inline-block azulosc") Sesiones
-		div(class="margen-izq-tal margen-der-tal espacio-arriba")
-			h2 IGNACIO LARRAÑAGA
-			h3(class= "margen-der-ext") Los Talleres de Oración y Vida con todos sus servicios fueron creados o fundados, por el Padre Ignacio Larrañaga un sacerdote capuchino, que nació en España. Fueron numerosos los libros que escribió dónde quedó plasmada la esencia de esta espiritualidad. La cual inició con los denominados Encuentros de Experiencia de Dios, de los cuales el P. Ignacio fue por mucho tiempo su animador. De allí surgieron los Talleres de Oración y Vida, luego sus servicios iniciaron hacia el año 1984.
-			h3 Este proyecto inició desde cuando el Padre reunió a un grupo de laicos, con los que se reunía cada quince días. Ellos llevaban muchos mensajes, oraban y meditaban las escrituras. Luego se entregó el primer Manual y se siguió llevando esta experiencia a muchos otros países promoviendo los talleres y sus servicios. 	
+				//link hacia la clse sesiones
+				a(href="/sesiones" class="col-md-3 grande inline-block azulosc") Sesiones	
+		//se añade una imagen para mejorar presentacion
+		img(src="imgs/panel.png" class="img-grande sin-margen")
+		//se añade imagen del fundador acorde con la pagina
+		img(src="imgs/fundadorlargo.jpg" class="margen-izq-tal img margen-arr col-md-6")
+		//se crea columna de texto con sus respectivos atributos
+		ul(class="no-lista margen-izq-tal espacio-arriba")
+			h1(class="negrita") Ignacio Larrañaga
+			h3 Ignacio Larrañaga, sacerdote capuchino, escritor y evangelizador, considerado por muchos un “profeta moderno” o un “místico del siglo XXI” es el fundador de Talleres de Oración y Vida (TOV). Su principal obra ha consistido en dejar al mundo miles de laicos preparados y dedicados a enseñar la oración profunda y personal que permite un encuentro cotidiano con el Señor en el día a día.
+			h3 Nació en España, el 4 de mayo de 1928, en la ciudad de Azpeitia, en el Barrio Baristain, caserío Txanton. Sus padres fueron: Marcelino Larrañaga Larrañaga y María Salomé Orbegozo, siendo el cuarto hijo de una numerosa familia.
+			h3 A la edad de 12 años, en 1940, ingresa al Seminario de los Capuchinos de Alsasua; poco antes de su ordenación sacerdotal, recibe el Subdiaconado el 29 de marzo de 1952, en la misma ciudad de Pamplona; y recibe la ordenación el 20 de diciembre de 1952, en San Sebastián.
+			h3 Desde pequeño tuvo inclinación por la música, desde el Seminario tocaba el piano y el órgano. Desarrolló una gran sensibilidad por la música, es así como todos sus audios y videos los adornó siempre con trozos de los grandes maestros de la música barroca.
+			h3 Falleció en Guadalajara, México el día 28 de octubre del 2013
+		//se crea columna con sus respectivos atributos
+		ul(class=" no-lista margen-izq-tal col-md-6")
+			h2(class="negrita") Talleres de Oración y Vida (TOV)
+			h3 Los Talleres de Oración y Vida (TOV), que fundó en el año 1984, son un servicio eclesial aprobado por la Santa Sede desde 1997, y constituyen la cumbre y coronamiento de toda su actividad apostólica por su fuerza expansiva, por sus frutos y por el alto aprecio hacia los mismos, manifestado por la Santa Sede y los Obispos. Han pasado por sus sesiones formativas millones de personas. El lema que sintetiza el camino a recorrer en Talleres de Oración y Vida es: “Del encanto de Dios, al encanto de la vida”.
+			h3 Este proyecto inició desde cuando el Padre reunió a un grupo de laicos, con los que se reunía cada quince días. Ellos llevaban muchos mensajes, oraban y meditaban las escrituras. Luego se entregó el primer Manual y se siguió llevando esta experiencia a muchos otros países promoviendo los talleres y sus servicios.
+		//se añade imagen del fundador acorde con la pagina
+		img(src="imgs/fundador.jpg" class="img img-fundador")
+		h3(class="margen-izq margen-der-tal") Entregó a los Guías de TOV su testamento espiritual en los encuentros semanales que llamó Semanas de Culminación, iniciados el año 2012, para lo cual viajó a numerosos países a fin de recoger el sentir del pueblo de Guías, concluyendo ese proceso de oración y reflexión comunitaria en la Re Fundación de los TOV en el año 2013.
+		//apartado de contactanos
+		div(class="rojito-back padding-largo text-center margen-down azulosc no-lista row espacio-arriba")
+			h3(class="text-center") Contactanos:
+			h4(class="col-md-3 inline-block text-center") E-mail: marthy_02@gmail.com
+			h4(class="col-md-3 inline-block text-center") Telefono: 6900692
+			h4(class="col-md-3 inline-block text-center") Celular: 3125424685
+			h4(class="col-md-3 inline-block text-center") Direccion: Daniel Lemaitre Cra. 15 #69b-69

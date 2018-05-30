@@ -1,49 +1,64 @@
-body{
+
+body{	/*inicializacion de la pagina se añade background y fuente predeterminada*/
 	background-color: #F5F1D5; 
 	font-family: 'Alice', serif;
 }
-.img-prin{
+.img-prin{	 /*este metodo ajusta el tamaño y el margen de la imagen principal*/
 	max-width: 80%;
+	margin-top: 70px;
 }
-.quitar-float{
-	float: none;
+.img{ 	/*este metodo ajusta el tamaño de las imagenes*/
+	max-width: 30%;
 }
-.espacio-arriba{
-	margin-top: 60px;
+.espacio-arriba{	/*este metodo es para establecer un margen arriba*/
+	margin-top: 40px;
 }
-.cardo{
+.cardo{		/*este metodo añade una fuente de texto*/
 	font-family: 'Cardo', serif;
 }
-.grande{
+.grande{	/*este metodo aumenta el tamaño del texto*/
 	font-size: 2em;
 }
-.rojito{
+.rojito{	/*este metodo añade un color al texto*/
 	color: #F2845C;
 }
-.no-lista li{
-	list-style-type: none;
-}
-.no-lista{
+.no-lista{	  /*este metodo elimina las viñetas de una columna o lista*/
 	padding:  7px;
 	border-right-width: 100px;
 }
-.azulito-back{
+.rojito-back{	/*este metodo añade un color de fondo*/
 	background-color: #F2845C;
 }
-.padding.largo{
+.padding.largo{		/*este metodo establece los tamaños del padding*/
 	padding: 5px 10px;
 }
-.margen-izq{
+.margen-izq-prin{	/*este metodo etablece el margen de la imagen pincipal para que quede centrada*/
 	margin-left: 655px;
 }
-.margen-izq-tal{
-	margin-left: 100px;
+.margen-izq-tal{	/*este metodo establece un margen izquierdo para una mejor visualizacion de los elementos*/
+	margin-left: 110px;
 }
-.margen-der-tal{
+.margen-der-tal{    /*este metodo establece un margen derecho para una mejor visualizacion de los elementos*/
 	margin-right: 100px;
 }
-.margen-der-ext{
-	margin-right: 600px;
+.margen-izq{	/*este metodo establece un margen izquierdo para una mejor visualizacion de los elementos*/
+	margin-left: 117px;
 }
-
-
+.margen-down{	 /*este metodo es para establecer un margen debajo, en este caso es para eliminarlo*/
+	margin-bottom: 0px;
+}
+.azulosc{	/*este metodo añade un color al texto*/
+	color: #1B3440;
+}
+.negrita{ /*este metodo añade negrita al texto*/
+	font-weight: bold;
+}
+.margen-arr{	/*este metodo es para establecer un margen arriba*/
+	margin-top: 80px;
+}
+.img-fundador{		/*este metodo es para establecer un margen arriba*/
+	margin-top: 50px;
+}
+.img-grande{	 /*este metodo hae que la imagen siempre se vea al 100% de su tamaño*/
+	min-width: 100%;
+}

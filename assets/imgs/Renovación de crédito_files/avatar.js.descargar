@@ -1,3 +1,0 @@
-function getCookie(cname){var name=cname+"=";var ca=document.cookie.split(';');for(var i=0;i<ca.length;i++){var c=ca[i].trim();if(c.indexOf(name)==0)return c.substring(name.length,c.length);}return"";}
-function Lenguaje(){var lang="es";var pathname=window.location.pathname;lang=((pathname.toLowerCase().indexOf("en-us")>=0)?"en":"es");return lang;}
-var bandera=getCookie('inbenta-av-open');var Lenguaje1=Lenguaje();if(bandera=='true'){var gaJsHost="https://";document.write(unescape("%3Cscript src='"+gaJsHost+"icetex.inbenta.com/assets/js/inbenta-integration.js?language="+Lenguaje1+"'  type='text/javascript'%3E%3C/script%3E"));}

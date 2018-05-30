@@ -1,22 +1,48 @@
 html(lang="en")
 	head
+		//aqui se inicializa la pagina, los links correspondientes para las fuentes de texto, el llamado del bootstrap y del css
 		meta(charset="utf-8")
 		link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
 		link(rel="stylesheet" href="css/main.css")
 		link(href="https://fonts.googleapis.com/css?family=Cardo:400i" rel="stylesheet")
 		link(href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet")
+		//titulo de la web
 		title Talleres de Oracion y Vida
 	body
+		//link hacia la clase principal
 		a(href="/")
-			img(src="imgs/logo.png" class="espacio-arriba margen-izq img-prin")
-		nav(class="azulito-back padding-largo text-center espacio-arriba cardo")
+			//se llama a la imagen principal y se le agregan sus respectivos atributos y css
+			img(src="imgs/logo.png" class="espacio-arriba margen-izq-prin img-prin")
+		//se añade un apartado de navegacion
+		nav(class="rojito-back padding-largo text-center espacio-arriba cardo")
+			//la navegacion se crea en forma de columna pero se reemplaza por una fila
 			ul(class="no-lista row")
+				//link hacia la clase quienes-somos
 				a(href="/quienes-somos" class="col-md-3 grande inline-block azulosc") ¿Quiénes Somos?
+				//link hacia la clase que-hacemos
 				a(href="/que-hacemos" class="col-md-3 grande inline-block azulosc" ) ¿Qué Hacemos?
+				//link hacia la clase nuestro fundador
 				a(href="/nuestro-fundador" class="col-md-3 grande inline-block azulosc") Nuestro Fundador
+				//link hacia la clse sesiones
 				a(href="/sesiones" class="col-md-3 grande inline-block azulosc") Sesiones	
+		//se añade una imagen para mejorar presentacion
+		img(src="imgs/panel.png" class="img-grande sin-margen")
+		//se agrega un conjunto de texto e imagen que va tener los mismos atributos
 		div(class="margen-izq-tal margen-der-tal espacio-arriba")
-			h2 GUÍAS
+			h1(class="negrita") Talleristas
 			h3 Somos Laicos, que se agrupan por zonas, conformando las coordinaciones, que mantenemos una estrecha relación entre nosotros y con nuestros Pastores.
 			h3 Los guías somos una asociación de evangelistas fieles a la iglesia, aprobados por la Santa Sede.
 			h3 Un grupo numeroso repartidos por en el mundo entero, contamos con más de 18000 guias ubicados en más de 44 países. Este gran número cumple con las obligaciones inherentes a la Asociación.
+			img(src="imgs/mesamujer.jpeg" class="img center-block")
+			h1(class="espacio-arriba negrita") Talleres
+			h3 Nuestros Talleres de Oracion y Vida están basados en el AMOR y lo que éste es capaz de realizar, no en el temor ni en el castigo. 
+			h3 Por eso decimos con pleno convencimiento que los Talleres de Oración y Vida son una respuesta al mundo de hoy…
+			h3 Ignacio Larrañaga, sacerdote franciscano, capuchino, originario de España, ha desarrollado una amplia labor animadora y evangelizadora durante 30 años en América Latina, Norteamérica y Europa. Es el Fundador de los Encuentros de Experiencia de Dios, que iniciaron en Brasil en 1974, y de los Talleres de Oración y Vida que datan de 1984.
+			img(src="imgs/mejorgrupo.jpeg" class="img center-block")
+		//apartado de contactanos
+		div(class="rojito-back padding-largo text-center margen-down azulosc no-lista row espacio-arriba")
+			h3(class="text-center") Contactanos:
+			h4(class="col-md-3 inline-block text-center") E-mail: marthy_02@gmail.com
+			h4(class="col-md-3 inline-block text-center") Telefono: 6900692
+			h4(class="col-md-3 inline-block text-center") Celular: 3125424685
+			h4(class="col-md-3 inline-block text-center") Direccion: Daniel Lemaitre Cra. 15 #69b-69

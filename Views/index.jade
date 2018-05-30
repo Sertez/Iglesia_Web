@@ -1,17 +1,56 @@
 html(lang="en")
 	head
+		//aqui se inicializa la pagina, los links correspondientes para las fuentes de texto, el llamado del bootstrap y del css
 		meta(charset="utf-8")
 		link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
 		link(rel="stylesheet" href="css/main.css")
 		link(href="https://fonts.googleapis.com/css?family=Cardo:400i" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet")
+		//titulo de la web
 		title Talleres de Oracion y Vida
 	body
+		//link hacia la clase principal
 		a(href="/")
-			img(src="imgs/logo.png" class="espacio-arriba img-prin margen-izq center-block")
-		nav(class="azulito-back padding-largo text-center espacio-arriba cardo")
+			//se llama a la imagen principal y se le agregan sus respectivos atributos y css
+			img(src="imgs/logo.png" class="img-prin margen-izq-prin center-block")
+		//se añade un apartado de navegacion
+		nav(class="rojito-back padding-largo text-center espacio-arriba cardo")
+			//la navegacion se crea en forma de columna pero se reemplaza por una fila
 			ul(class="no-lista row")
+				//link hacia la clase quienes-somos
 				a(href="/quienes-somos" class="col-md-3 grande inline-block azulosc") ¿Quiénes Somos?
+				//link hacia la clase que-hacemos
 				a(href="/que-hacemos" class="col-md-3 grande inline-block azulosc" ) ¿Qué Hacemos?
+				//link hacia la clase nuestro fundador
 				a(href="/nuestro-fundador" class="col-md-3 grande inline-block azulosc") Nuestro Fundador
+				//link hacia la clse sesiones
 				a(href="/sesiones" class="col-md-3 grande inline-block azulosc") Sesiones	
-		iframe(src='https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23FFFFFF&src=es.christian%23holiday%40group.v.calendar.google.com&color=%23125A12&ctz=America%2FBogota', style='border-width:0', width='400', height='300', frameborder='0', scrolling='no')
+		//se añade una imagen para mejorar presentacion
+		img(src="imgs/panel.png" class="img-grande sin-margen")
+		//se crea columna con sus respectivos atributos
+		ul(class="col-md-6 no-lista margen-izq-tal espacio-arriba")		
+			//se añade el texto cuerpo
+			h1(class="negrita") Talleres de Oración y Vida (TOV)
+			h3 Te damos la bienvenida a los talleres de oración y vida de la ciudad de Cartagena, Colombia.
+			h3 Los Talleres de Oración y Vida son una nueva forma de evangelización. Más viva y con una visión más positiva de lo que se ha mostrado siempre. Es una presentación más vibrante y activa de Jesús que posee una mayor adaptación a las necesidades de la cociedad actual y a lo que realmente las personas necesitan.
+		//imagen para mejorar presentacion
+		img(src="imgs/mesa.jpeg" class="img margen-arr margen-izq-tal")
+		//se agrega un conjunto de texto que va tener los mismos atributos
+		div(class="margen-izq margen-der-tal espacio-arriba")
+			h1(class="negrita") Un Taller de Oración y Vida es:
+			h3 Primero: Ante todo un método práctico para aprender a orar, igual que en un taller en que, trabajando se aprende a trabajar, aquí, orando, se aprende a orar.
+			h3 Paso a paso se aprende a entrar en una relación personal con el Señor desde los primeros pasos hasta la profundidad de la contemplación. De esta manera los talleristas se convierten en amigos y discípulos del Señor.
+			h3 Segundo: También es Taller de Vida. Por la práctica de la fé y el abandono, y como consecuencia de la práctica de la oración, casi sin pretenderlo, el tallerista va sanando las heridas del corazón, sofocando las angustias del alma, ahuyentando los miedos hasta lograr el control de nervios y un gran serenidad. Los espacios interiores se van poblando de una paz nunca imaginada. Desaparece la tristeza y se recupera la alegría del vivir.
+			h3 Tercero: Contemplando la figura de Jesús y copiando sus rasgos, lentamente el tallerista va transformándose en una persona paciente como Jesús, humilde como Jesús, comprensivo como Jesús, manso y bondadoso como Jesús. Así el tallerista llega a superarse a sí mismo y a trascender sus propios límites.
+			h3(class="negrita") Padre Ignacio Larrañaga OFM cap
+			h3(class="negrita") Fundador de los Talleres de Oración y Vida
+		h2(class="text-center espacio-arriba") Calendario Cristiano:
+		//se añade calendario de google
+		iframe(class="center-block" src="https://calendar.google.com/calendar/embed?showTitle=0&showNav=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&height=300&wkst=1&bgcolor=%23ffffff&src=es.christian%23holiday%40group.v.calendar.google.com&color=%23125A12&ctz=America%2FBogota" style="border:solid 1px #777" width="1000" height="800" frameborder="0" scrolling="no")
+		//apartado de contactanos
+		div(class="rojito-back padding-largo text-center margen-down azulosc no-lista row espacio-arriba")
+			h3(class="text-center") Contactanos:
+			h4(class="col-md-3 inline-block text-center") E-mail: marthy_02@gmail.com
+			h4(class="col-md-3 inline-block text-center") Telefono: 6900692
+			h4(class="col-md-3 inline-block text-center") Celular: 3125424685
+			h4(class="col-md-3 inline-block text-center") Direccion: Daniel Lemaitre Cra. 15 #69b-69
