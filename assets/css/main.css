@@ -59,6 +59,9 @@ body{	/*inicializacion de la pagina se añade background y fuente predeterminada
 .img-fundador{		/*este metodo es para establecer un margen arriba*/
 	margin-top: 50px;
 }
-.img-grande{	 /*este metodo hae que la imagen siempre se vea al 100% de su tamaño*/
+.img-grande{	 /*este metodo hace que la imagen siempre se vea al 100% de su tamaño*/
 	min-width: 100%;
+}
+.margen-link{	/*este metodo establece un margen izquierdo para una mejor visualizacion de los elementos*/
+	margin-left: 0px;
 }

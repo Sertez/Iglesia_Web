@@ -1,41 +1,44 @@
 html(lang="en")
 	head
-		//aqui se inicializa la pagina, los links correspondientes para las fuentes de texto, el llamado del bootstrap y del css
+		//aquí se inicializa la página, los links correspondientes para las fuentes de texto, el llamado del bootstrap y del css
 		meta(charset="utf-8")
 		link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
 		link(rel="stylesheet" href="css/main.css")
 		link(href="https://fonts.googleapis.com/css?family=Cardo:400i" rel="stylesheet")
 		link(href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet")
-		//titulo de la web
+		//título de la web
 		title Talleres de Oracion y Vida
 	body
 		//link hacia la clase principal
 		a(href="/")
 			//se llama a la imagen principal y se le agregan sus respectivos atributos y css
 			img(src="imgs/logo.png" class="espacio-arriba margen-izq-prin img-prin")
-		//se añade un apartado de navegacion
+		//se añade un apartado de navegación
 		nav(class="rojito-back padding-largo text-center espacio-arriba cardo")
-			//la navegacion se crea en forma de columna pero se reemplaza por una fila
+			//la navegación se crea en forma de columna pero se reemplaza por una fila
 			ul(class="no-lista row")
 				//link hacia la clase quienes-somos
 				a(href="/quienes-somos" class="col-md-3 grande inline-block azulosc") ¿Quiénes Somos?
-				//link hacia la clase que-hacemos
+				//link hacia la clase qué-hacemos
 				a(href="/que-hacemos" class="col-md-3 grande inline-block azulosc" ) ¿Qué Hacemos?
 				//link hacia la clase nuestro fundador
 				a(href="/nuestro-fundador" class="col-md-3 grande inline-block azulosc") Nuestro Fundador
-				//link hacia la clse sesiones
+				//link hacia la clase sesiones
 				a(href="/sesiones" class="col-md-3 grande inline-block azulosc") Sesiones	
-		//se añade una imagen para mejorar presentacion
+		//se añade una imagen para mejorar presentación
 		img(src="imgs/panel.png" class="img-grande sin-margen")
 		//se agrega un conjunto de texto que va tener los mismos atributos
 		div(class="margen-izq-tal margen-der-tal espacio-arriba")
-			h2 Cursillo Biblico
-			a(href="https://drive.google.com/open?id=1hTpmDYmjzzZaVwLIJIKCBEM6YrCdjIQI") Sesiones 
-			h3 En estas sesiones vamos a aprender mas acerca de la biblia, por eso el nombre de cursillo biblico. Es un curso en el cual aprenderemos la importancia de la palabra de Dios y de saber interpretar correctamente las enseñanzas que esta nos deja.
-		//apartado de contactanos
+			h2 Cursillo Bíblico
+			ul(class="grande no-lista row margen-link")
+				a(href="https://drive.google.com/file/d/1_O7ABiPueJG94N9UiBy3rYzQKK25z7tU/view") Introducción 
+			ul(class="grande no-lista row margen-link")
+				a(href="https://drive.google.com/file/d/1gFyukE6RHxTnm_c4TUXrT0HsWTBaxPyW/view") Sesiones
+			h3 Aqui podras obtener el libro introductorio al curso biblico y ademas un paquete de sesiones, en las cuales vamos a aprender más acerca de la biblia, por eso el nombre de cursillo bíblico. Es un curso en el cual aprenderemos la importancia de la palabra de Dios y de saber interpretar correctamente las enseñanzas que esta nos deja.
+		//apartado de contáctenos
 		div(class="rojito-back padding-largo text-center margen-down azulosc no-lista row espacio-arriba")
 			h3(class="text-center") Contactanos:
-			h4(class="col-md-3 inline-block text-center") E-mail: marthy_02@gmail.com
-			h4(class="col-md-3 inline-block text-center") Telefono: 6900692
+			h4(class="col-md-3 inline-block text-center") Email: marthy_02@gmail.com
+			h4(class="col-md-3 inline-block text-center") Teléfono: 6900692
 			h4(class="col-md-3 inline-block text-center") Celular: 3125424685
-			h4(class="col-md-3 inline-block text-center") Direccion: Daniel Lemaitre Cra. 15 #69b-69
+			h4(class="col-md-3 inline-block text-center") Dirección: Daniel Lemaitre Cra. 15 #69b-69
